@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-button{
+    @apply  bg-[#81A356] text-white p-3 px-7 rounded-lg 
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Eudoxus Sans", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  @font-face {
+    font-family: jejuMyeongjo;
+    src: url("./images/JejuMyeongjo-Regular.ttf");
+  }
+  h1{
+    font-family:jejuMyeongjo ;
+  }
